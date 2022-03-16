@@ -1,0 +1,19 @@
+{
+  "props": [
+    {
+      "name": "Primary",
+      "type": "color",
+      "value": "#2786C8",
+      "category": "color",
+      "meta": {
+        "projectId": "eFTxRy6iVw8NW8H48wAzjQ",
+        "id": "7wyGP-GlX"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

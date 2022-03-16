@@ -1,0 +1,140 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "eFTxRy6iVw8NW8H48wAzjQ",
+      "projectApiToken": "piFYephBLUEGhXvR0ChVVxULCmpgJHZMR8WbsGoaCS0ULpAnNXhltJjOtMyvQp7dWXBoBKbbHJq9A5QzeI0ow",
+      "projectName": "Blank project (mobile-first)",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project_mobile_first/plasmic_blank_project_mobile_first.module.css",
+      "components": [
+        {
+          "id": "qe0XQ1teyu55",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "eFTxRy6iVw8NW8H48wAzjQ",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "oy-ewfsY4Aa",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "eFTxRy6iVw8NW8H48wAzjQ",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "6OfI4ryIwId",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "eFTxRy6iVw8NW8H48wAzjQ",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "hqyq1fU3pvf",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "eFTxRy6iVw8NW8H48wAzjQ",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "gCpxPDmDBVu",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Squaresvg.jsx"
+        },
+        {
+          "id": "W1IZWWII5Uu",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__SquareCheckFilledsvg.jsx"
+        },
+        {
+          "id": "PjPyCgvBKRB",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__SquareMinussvg.jsx"
+        },
+        {
+          "id": "MEzYmnVdD0f",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "kE5UOK1hiRT",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "ChgzFVoT56-",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/blank_project_mobile_first/icons/PlasmicIcon__Icon.jsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ZKjqMveba387_",
+        "name": "Screen",
+        "projectId": "eFTxRy6iVw8NW8H48wAzjQ",
+        "contextFilePath": "plasmic/blank_project_mobile_first/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.174",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.174/dist/plasmic.schema.json"
+}
